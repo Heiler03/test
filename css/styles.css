@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+header {
+    
+    background-color: #000000;
+    color: #fff;   
+    padding: 0.5em;
+}
+.logo{
+    font-size: 35px;
+    margin: 10px;
+    animation: saltar;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes saltar {
+  from {
+    margin-left: 29px;
+  }
+  to {
+    margin-right: 0px;
+  }
+   }
+   h3.fecha{
+    margin: 15px;
+   }
+ .contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav a {
+  color:rgb(155, 154, 154);
+  text-decoration: none;
+  margin-right: 15px;
+}
+nav a:hover{
+color: #fff;
+}
+a{
+  color: hsl(0, 97%, 36%);
+}
+a{
+  color:rgb(155, 154, 154) ;
+  text-decoration: none;
+  margin-right: 15px;
+}
+div .principal-estreno{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ 
+ 
+}
+div.Estreno{
+  padding: 1em,15em;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(rgba(34, 33, 33, 0.4) 0%, rgba(51, 51, 51, 0.5) 100%) , url(/resource/Deapool\ y\ lobezno\ horizontal.jpg);
+  background-position: center center;
+  background-size: cover;
+  align-items:last baseline;
+  min-height: 16em;
+  max-width: 35em;
+  margin: auto;
+  font-size: 30px;
+ justify-content: space-between;
+ margin-bottom: 30px;
+  
+  color: #fff;
+}
+section.Populares > h2{
+ margin-left: 95px;
+}
+
+section .Populares{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+div.seleccion {
+  margin-left: 95px;
+  margin-right: 15px;
+  width:100%;
+display: flex;
+align-items: center;
+
+}
+div.seleccion >a> img{
+
+  height: 250px;
+  width: auto;
+  object-fit: cover;
+}
+button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+button.f-left{
+  align-items: flex-start;
+}
+button.f-right{
+  align-items:flex-end
+}
